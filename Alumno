@@ -1,0 +1,40 @@
+Enter file contents here
+public class Alumno {
+    
+    private String nombreAlumno; 
+
+    @Override
+    public String toString() {
+        return "Alumno{" + "nombreAlumno=" + nombreAlumno + ", cursos=" + cursos + '}';
+    }
+   private Curso []cursos; 
+ 
+ 
+     public Alumno() { 
+     } 
+ 
+ 
+     public Alumno(String nombreAlumno, Curso[] cursos) { 
+         this.nombreAlumno = nombreAlumno; 
+         this.cursos = cursos; 
+     } 
+ 
+ 
+     public String getNombreAlumno() { 
+         return nombreAlumno; 
+     }  
+ 
+     public void setNombreAlumno(String nombreAlumno) { 
+         this.nombreAlumno = nombreAlumno; 
+     } 
+ 
+ 
+     public Curso[] getCursos() { 
+         return cursos; 
+     }  
+ 
+     public void setCursos(Curso[] cursos) { 
+        this.cursos = cursos; 
+     } 
+
+}
